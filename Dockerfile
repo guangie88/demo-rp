@@ -4,7 +4,7 @@
 #
 # Alternatively, you may (read-only) mount a config at /app/config.ini.
 
-FROM python:3
+FROM python:3.6
 
 COPY . /app
 WORKDIR /app
